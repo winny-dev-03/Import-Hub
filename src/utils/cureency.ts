@@ -1,0 +1,1 @@
+export const formatNaira = (amount: number): string => `\u20A6${amount.toLocaleString('en-NG')}`;
